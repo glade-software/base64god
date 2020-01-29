@@ -2,7 +2,7 @@ import React from 'react';
 import NextHead from 'next/head';
 import { string } from 'prop-types';
 
-const defaultDescription = 'base64 urls from files without code or software';
+const defaultDescription = 'base64 urls from files without software - shouts to lil b';
 const defaultOGURL = 'https://base64god.app';
 const defaultOGImage = '';
 
