@@ -6,14 +6,12 @@ import Head from '../components/head';
 const Home = () => {
     const [base64, setBase64] = useState(null);
     const onDrop = useCallback(acceptedFiles => {
-      // Do something with the files
       const file = acceptedFiles[0];
       const reader = new FileReader();
-      reader.onload = (event) => {
+      reader.onload = _ => {
         setBase64(reader.result);
       };
       reader.readAsDataURL(file);
-
     }, [])
     const {getRootProps, getInputProps, isDragActive} = useDropzone({onDrop})
 
