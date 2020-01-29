@@ -2,8 +2,8 @@ import React from 'react';
 import NextHead from 'next/head';
 import { string } from 'prop-types';
 
-const defaultDescription = '';
-const defaultOGURL = '';
+const defaultDescription = 'base64 urls from files without code or software';
+const defaultOGURL = 'https://base64god.app';
 const defaultOGImage = '';
 
 const Head = props => (
