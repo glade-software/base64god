@@ -28,7 +28,12 @@ const Home = () => {
       </div>
       {base64 ?
         <div>
-        <button id="copy-button" onClick={()=>{copy(base64)}}>copy to clipboard</button>
+          <button id="copy-button" onClick={_=>{
+              copy(base64);
+              setBase64(null);
+          }}>
+            copy to clipboard
+          </button>
         </div> : null
       }
 
