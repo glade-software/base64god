@@ -22,7 +22,7 @@ const Home = () => {
         <input {...getInputProps()}/>
         {
           isDragActive ?
-            <p>Drop a file to get a base 64 URL</p> :
+            <p>Drop a file to get a base64 URL</p> :
             <p>Drop a file to get a base64 URL, or just click here to pick one</p>
         }
       </div>
